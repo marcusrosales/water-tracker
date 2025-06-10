@@ -5,6 +5,7 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+    <h1 id='MainH1'>Water Bottle Tracker</h1>
     <App />
   </StrictMode>,
 )
