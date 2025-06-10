@@ -4,7 +4,6 @@ function App(){
 
   const [waters,changeWaters] = useState(0)
   
-  let totalWaters = 0
 
   function addFunc() {
     changeWaters(waters + 1)
